@@ -4,13 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "mocha"
+        "test": "mocha"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "mocha": "^8.2.1",
-      "mongoose": "^5.10.16",
-      "nodemon": "^2.0.6"
+        "mocha": "^8.2.1",
+        "mongodb": "^6.5.0",
+        "mongoose": "^5.10.16",
+        "nodemon": "^2.0.6"
     }
-  }
+}
