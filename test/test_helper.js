@@ -7,3 +7,9 @@ mongoose.connection
     .on("error", (error) => {
         console.warn("An error occured", error)
     });
+
+beforeEach((done) => {
+    //clear collection before every test
+    mongoose.connection.collections.students.drop();
+    done();
+});
